@@ -1,0 +1,132 @@
+{
+  "schema_version": 4,
+  "status": "available",
+  "distribution_terms": {
+    "status": "approved",
+    "required_documents": [
+      "LICENSE",
+      "MMBERT_NOTICE.md",
+      "THIRD_PARTY_NOTICES.md"
+    ]
+  },
+  "landing_url": "https://github.com/superhuman/metc/releases/tag/v1.0.0",
+  "download_url": "https://github.com/superhuman/metc/releases/download/v1.0.0/metc-checkpoint.zip",
+  "archive": {
+    "documents": [
+      "LICENSE",
+      "MMBERT_NOTICE.md",
+      "README.md",
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "filename": "metc-checkpoint.zip",
+    "model_files": [
+      "config.json",
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "root_directory": "metc-checkpoint",
+    "size_bytes": 521562261,
+    "sha256": "06ddc2bc1425187bc358785fc3af5febba910ee8c5a38e8b2b7be44cf905f8a3"
+  },
+  "architecture": "ModernBertForTokenClassification",
+  "parameter_count": 140658474,
+  "num_labels": 42,
+  "training_max_length": 256,
+  "reference_inference_max_length": 512,
+  "model_capacity": 8192,
+  "edit_open_token_id": 256000,
+  "edit_close_token_id": 256001,
+  "checkpoint_inventory_sha256": "e1f330f526221012ea42eb971028e4b19ca436f5983112cf1024056843f503fc",
+  "paper_inference": {
+    "accelerate_version": "1.12.0",
+    "attention_implementation": "flash_attention_2",
+    "cuda_version": "12.8.1",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "flash_attn_version": "2.8.2",
+    "max_sequence_length": 512,
+    "padding": "max_length",
+    "padding_side": "right",
+    "pretokenization_character_limit": 3584,
+    "python_version": "3.12",
+    "reference_compile": true,
+    "torch_version": "2.9.0",
+    "transformers_version": "4.57.3",
+    "truncation_side": "right",
+    "truncated_edit_fallback": "Other/Compound_Complex"
+  },
+  "tokenizer_preparation": {
+    "command": "metc prepare-tokenizer --model /path/to/metc-checkpoint",
+    "output_files": [
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ],
+    "repository": "jhu-clsp/mmBERT-small",
+    "revision": "abc32620dd4f6ab06f5fbe905dc25f310618e09f",
+    "source_files": [
+      {
+        "path": "config.json",
+        "sha256": "3b0eea47c4734682370b66dbd73d655f1100387f683d7c69015f33aa1bac1be9",
+        "size_bytes": 1187
+      },
+      {
+        "path": "special_tokens_map.json",
+        "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+        "size_bytes": 636
+      },
+      {
+        "path": "tokenizer.json",
+        "sha256": "197d4cc5406ee12cc50c8b5511f2393cc32d9db321545979ce041c1199178356",
+        "size_bytes": 17525329
+      },
+      {
+        "path": "tokenizer_config.json",
+        "sha256": "ea349495764b24570b4560fe2e4a557e5c0a47e6bce782c2409b1d6445cf8633",
+        "size_bytes": 46440
+      }
+    ],
+    "toolchain": {
+      "tokenizers_version": "0.22.0",
+      "transformers_version": "4.57.3"
+    }
+  },
+  "files": [
+    {
+      "path": "config.json",
+      "size_bytes": 4135,
+      "sha256": "4685c3834028851896ec38e76c50dd5b98b8041b37ea796284403e929d737d2f"
+    },
+    {
+      "path": "model-00001-of-00002.safetensors",
+      "size_bytes": 498849256,
+      "sha256": "70068ffd2dedc0d6e6417104740445abb86ccce07becc0dd8cbd78b342647b0f"
+    },
+    {
+      "path": "model-00002-of-00002.safetensors",
+      "size_bytes": 63798736,
+      "sha256": "1619e3d815a586f0c548a15ff7e337078f0f967fd87b5ba5b0b0f5ff363476e1"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size_bytes": 10270,
+      "sha256": "3d38543ab44e32b1d1fefffbb5b887f278b7a6152785a3759c7b83953fb03785"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 1036,
+      "sha256": "d3efb945fcdc4dc561e2f4cf55559d71b27fd7458f466e67c7b9eb76e7769f58"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 34363555,
+      "sha256": "dbe152000b5455328301181b51d9347cf3df2c0a0a5ab23ec8c4c19c4ff2d6b4"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 46801,
+      "sha256": "1e9e582f8b549d8b4b10e1ee995161aa89dc11685692e4a2b3622f7f773d3dc6"
+    }
+  ]
+}

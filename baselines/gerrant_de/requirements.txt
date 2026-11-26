@@ -1,0 +1,6 @@
+# Direct runtime dependencies from the environment that generated the paper baseline.
+# Use CPython 3.11.13. The model wheel is pinned to the exact spaCy 3.8 release.
+nltk==3.9.4
+regex==2026.6.28
+spacy==3.8.14
+de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Downloaded or extracted release assets and run outputs
+metc-checkpoint/
+metc-checkpoint.zip
+metc-data/
+metc-data.zip
+metc-e2e-work/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,17 @@
+METC: Multilingual Error Type Classifier for Grammatical Error Correction
+Copyright 2026 Superhuman Platform Inc.
+
+This product includes software and model files licensed by Superhuman Platform
+Inc. under the Apache License, Version 2.0 (see LICENSE).
+
+It also includes third-party components that keep their own licenses and
+notices. See THIRD_PARTY_NOTICES.md, UNICODE_LICENSE.txt,
+baselines/gerrant_de/LICENSE-MIT, and model/MMBERT_NOTICE.md.
+
+The METC evaluation data (metc-data.zip, published as a release asset) is a
+mixed-license archive with its own LICENSE. Its author-created annotations,
+judge-output normalizations, manifests, and metadata are under the Apache
+License, Version 2.0. Third-party benchmark material, gold annotations, and the
+gERRANT dictionary keep their original terms, and the de-identified human
+annotation records are supplied for research verification. See LICENSE and
+DATASET_LICENSES.md inside the archive.

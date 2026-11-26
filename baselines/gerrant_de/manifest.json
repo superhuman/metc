@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "component": "gerrant_de_spacy3_port",
+  "upstream": {
+    "repository": "https://github.com/adrianeboyd/errant",
+    "commit": "92a86d0722536f4b2c6a4a10037b64f3955ad1b5",
+    "license": "MIT",
+    "license_notice": "LICENSE-MIT",
+    "paper": "https://aclanthology.org/W18-6111/"
+  },
+  "tested_runtime": {
+    "python": "3.11.13",
+    "spacy": "3.8.14",
+    "de_core_news_sm": "3.8.0",
+    "nltk": "3.9.4",
+    "regex": "2026.6.28"
+  },
+  "code_files": {
+    "align_text.py": "ab01a29a2652ff7f2f09b3b4f66bacf21b2198cc7eda38dfe055518860bf3fa3",
+    "cat_rules_de.py": "a14f26c4afc77647ee01585e10a341b9803b38bd2f421f844651db0e5337f1f6",
+    "gerrant_de.py": "8ef25e55c4238b81becf6069119fba746f5457a9f30f330f1eea02cc6821b19a",
+    "prepare_resources.py": "9463e6d3095fd37df88781c91b0d05b5bc7e3dd08837fec15b7f6861d450ecc4",
+    "rdlextra.py": "e9f4440f2a7bacc40246885e08e4438df88e90effcd0b6304cf33074028e73d4",
+    "toolbox.py": "24d8fde7932fc54cdbe4906e8e5d0ed02b52a349c0c1c874a1d58521cc54ec2e"
+  },
+  "resources": {
+    "de-stts_map": {
+      "bundled": false,
+      "construction": "Author-created functional compatibility table embedded in prepare_resources.py",
+      "basis": [
+        "STTS tag inventory",
+        "Universal POS tag inventory",
+        "gERRANT compatibility aliases NNE -> PNOUN and PROAV -> ADV"
+      ],
+      "derived_rows": 56,
+      "derived_sha256": "840a7d37c2364b3a5f628900a58c4cc513014d47de6d3a96414fa43c9231c869"
+    },
+    "de_DE-large.txt": {
+      "bundled": false,
+      "source_url": "https://www.j3e.de/ispell/igerman98/dict/igerman98-20161207.tar.bz2",
+      "source_size_bytes": 470207,
+      "source_sha256": "17296f03c5fea62d76ecc530ebe80f6adc430278f58d472dc1842d71612960a8",
+      "derived_size_bytes": 4778232,
+      "derived_sha256": "577c06ebd6461c0a43486a9a538c1175fbc1f0d1a3985e9b4350a5ad1c5d9da6",
+      "source_license": "GPL-2.0-only OR GPL-3.0-only as stated upstream",
+      "distribution": "mixed-license Data artifact resources/gerrant/de_DE-large.txt"
+    }
+  },
+  "paper_regression": {
+    "sentences": 1197,
+    "generated_native_edits": 2880,
+    "materialized_evaluation_edits": 2879,
+    "historical_duplicate_source_excluded_edits": 1,
+    "exclusion_reason": "source-only join selected the first, zero-edit occurrence of a duplicated source",
+    "noop_sentences": 280,
+    "m2_sha256": "3dc3ce3c59d97b37c6b762981850f5504abdce3a34962fe27ddd7f58105fb4f7"
+  }
+}

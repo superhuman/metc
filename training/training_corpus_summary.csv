@@ -1,0 +1,9 @@
+metric,overall,english,five_languages,long_tail,unit
+Spelling,30.4,10.0,32.5,37.5,percent_of_edits
+Punctuation,24.0,24.1,23.6,24.2,percent_of_edits
+Grammar,22.5,40.5,23.8,15.3,percent_of_edits
+Formatting,10.8,6.2,12.1,12.2,percent_of_edits
+Other,8.5,7.2,6.6,9.7,percent_of_edits
+Rephrasing,2.8,10.6,0.4,0.6,percent_of_edits
+SentenceStructure,0.9,1.5,1.0,0.7,percent_of_edits
+EditsPerSentence,2.69,2.28,2.07,3.25,mean

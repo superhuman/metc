@@ -1,0 +1,1603 @@
+{
+  "frozen_sha256": "a65dd2254df04db13db0aeeda9844bca9da1a5645a4d5f79061306fe554bbad8",
+  "mappings": [
+    {
+      "entries": [
+        {
+          "key": [
+            "Formatting",
+            "AbbreviationFormat"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "CurrencyFormat"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "DateFormat"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "MeasurementFormat"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "MissingSpace"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "Other"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "RedundantSpace"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "SpellOutNumber"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Formatting",
+            "TimeFormat"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Adjective"
+          ],
+          "value": "Wci"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Adverb"
+          ],
+          "value": "Wform"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Agreement"
+          ],
+          "value": "Nn"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Conjunction"
+          ],
+          "value": "Trans"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Determiner"
+          ],
+          "value": "ArtOrDet"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Morphology"
+          ],
+          "value": "Wform"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Negation"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Noun"
+          ],
+          "value": "Nn"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Particle"
+          ],
+          "value": "Prep"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Preposition"
+          ],
+          "value": "Prep"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Pronoun"
+          ],
+          "value": "Pref"
+        },
+        {
+          "key": [
+            "Grammar",
+            "Verb"
+          ],
+          "value": "Wci"
+        },
+        {
+          "key": [
+            "Grammar",
+            "VerbSVA"
+          ],
+          "value": "SVA"
+        },
+        {
+          "key": [
+            "Grammar",
+            "VerbTenseForm"
+          ],
+          "value": "Vt"
+        },
+        {
+          "key": [
+            "Other",
+            "Compound"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Other",
+            "Compound_Complex"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Other",
+            "Compound_Moderate"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Other",
+            "Compound_Trivial"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Punctuation",
+            "ClosingPunctuation"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Punctuation",
+            "Other"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Punctuation",
+            "SentenceSplit"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Rephrasing",
+            "Formality"
+          ],
+          "value": "Wtone"
+        },
+        {
+          "key": [
+            "Rephrasing",
+            "Other"
+          ],
+          "value": "Others"
+        },
+        {
+          "key": [
+            "Rephrasing",
+            "Tone"
+          ],
+          "value": "Wtone"
+        },
+        {
+          "key": [
+            "Rephrasing",
+            "Wordiness"
+          ],
+          "value": "Rloc-"
+        },
+        {
+          "key": [
+            "SentenceStructure",
+            "SentenceFragment"
+          ],
+          "value": "Sfrag"
+        },
+        {
+          "key": [
+            "SentenceStructure",
+            "WordOrder"
+          ],
+          "value": "WOinc"
+        },
+        {
+          "key": [
+            "Spelling",
+            "Diacritic"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "Merge"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "Misspelling"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "Other"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "SpellConfused_Capitalize"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "SpellConfused_Confused"
+          ],
+          "value": "Mec"
+        },
+        {
+          "key": [
+            "Spelling",
+            "SpellConfused_Lowercase"
+          ],
+          "value": "Mec"
+        }
+      ],
+      "key_format": "tuple2",
+      "name": "conll.METC_TO_CONLL"
+    },
+    {
+      "entries": [
+        {
+          "key": "ADJ",
+          "value": "Wform"
+        },
+        {
+          "key": "ADJ:FORM",
+          "value": "Wform"
+        },
+        {
+          "key": "ADP",
+          "value": "Prep"
+        },
+        {
+          "key": "ADV",
+          "value": "Wform"
+        },
+        {
+          "key": "AUX",
+          "value": "Vform"
+        },
+        {
+          "key": "CONJ",
+          "value": "Trans"
+        },
+        {
+          "key": "CONTR",
+          "value": "Vform"
+        },
+        {
+          "key": "DET",
+          "value": "ArtOrDet"
+        },
+        {
+          "key": "MORPH",
+          "value": "Wform"
+        },
+        {
+          "key": "NOUN",
+          "value": "Wci"
+        },
+        {
+          "key": "NOUN:INFL",
+          "value": "Nn"
+        },
+        {
+          "key": "NOUN:NUM",
+          "value": "Nn"
+        },
+        {
+          "key": "NOUN:POSS",
+          "value": "Npos"
+        },
+        {
+          "key": "ORTH",
+          "value": "Mec"
+        },
+        {
+          "key": "OTHER",
+          "value": "Others"
+        },
+        {
+          "key": "PART",
+          "value": "Prep"
+        },
+        {
+          "key": "PREP",
+          "value": "Prep"
+        },
+        {
+          "key": "PRON",
+          "value": "Pref"
+        },
+        {
+          "key": "PROPN",
+          "value": "Wci"
+        },
+        {
+          "key": "PUNCT",
+          "value": "Mec"
+        },
+        {
+          "key": "SPELL",
+          "value": "Mec"
+        },
+        {
+          "key": "UNK",
+          "value": "Others"
+        },
+        {
+          "key": "VERB",
+          "value": "Vform"
+        },
+        {
+          "key": "VERB:FORM",
+          "value": "Vform"
+        },
+        {
+          "key": "VERB:INFL",
+          "value": "Vform"
+        },
+        {
+          "key": "VERB:SVA",
+          "value": "SVA"
+        },
+        {
+          "key": "VERB:TENSE",
+          "value": "Vt"
+        },
+        {
+          "key": "WO",
+          "value": "WOinc"
+        }
+      ],
+      "key_format": "string",
+      "name": "conll.ERRANT_CATEGORY_TO_CONLL"
+    },
+    {
+      "entries": [
+        {
+          "key": "M:VERB",
+          "value": "V0"
+        },
+        {
+          "key": "R:ADJ",
+          "value": "Wci"
+        },
+        {
+          "key": "R:ADV",
+          "value": "Wci"
+        },
+        {
+          "key": "R:CONTR",
+          "value": "Wtone"
+        },
+        {
+          "key": "R:VERB",
+          "value": "Wci"
+        },
+        {
+          "key": "U:ADJ",
+          "value": "Rloc-"
+        },
+        {
+          "key": "U:ADV",
+          "value": "Rloc-"
+        },
+        {
+          "key": "U:OTHER",
+          "value": "Rloc-"
+        },
+        {
+          "key": "U:VERB",
+          "value": "Rloc-"
+        }
+      ],
+      "key_format": "string",
+      "name": "conll.ERRANT_PREFIX_OVERRIDES"
+    },
+    {
+      "entries": [
+        {
+          "key": "Formatting/AbbreviationFormat",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/CurrencyFormat",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/DateFormat",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/MeasurementFormat",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/MissingSpace",
+          "value": "O_Wordbd"
+        },
+        {
+          "key": "Formatting/Other",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/RedundantSpace",
+          "value": "O_Wordbd"
+        },
+        {
+          "key": "Formatting/SpellOutNumber",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Formatting/TimeFormat",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "Grammar/Adjective",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "Grammar/Adverb",
+          "value": "V_Wordform"
+        },
+        {
+          "key": "Grammar/Agreement",
+          "value": "G_Agr"
+        },
+        {
+          "key": "Grammar/Conjunction",
+          "value": "G_Conj"
+        },
+        {
+          "key": "Grammar/Determiner",
+          "value": "G_Art"
+        },
+        {
+          "key": "Grammar/Morphology",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "Grammar/Negation",
+          "value": "G_Neg"
+        },
+        {
+          "key": "Grammar/Noun",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "Grammar/Particle",
+          "value": "G_Verb_compl"
+        },
+        {
+          "key": "Grammar/Preposition",
+          "value": "G_Prep"
+        },
+        {
+          "key": "Grammar/Pronoun",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "Grammar/Verb",
+          "value": "G_Verb"
+        },
+        {
+          "key": "Grammar/VerbSVA",
+          "value": "G_Agr"
+        },
+        {
+          "key": "Grammar/VerbTenseForm",
+          "value": "G_Verb"
+        },
+        {
+          "key": "Other/Compound_Complex",
+          "value": "V_Sequence_lexgrammer_inc"
+        },
+        {
+          "key": "Other/Compound_Moderate",
+          "value": "V_Sequence_lexgrammer_inc"
+        },
+        {
+          "key": "Other/Compound_Trivial",
+          "value": "V_Sequence_lexgrammer_inc"
+        },
+        {
+          "key": "Punctuation/ClosingPunctuation",
+          "value": "O_Punct"
+        },
+        {
+          "key": "Punctuation/Other",
+          "value": "O_Punct"
+        },
+        {
+          "key": "Punctuation/SentenceSplit",
+          "value": "O_Punct"
+        },
+        {
+          "key": "Rephrasing/Formality",
+          "value": "S_Var"
+        },
+        {
+          "key": "Rephrasing/Other",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "Rephrasing/Tone",
+          "value": "S_Var"
+        },
+        {
+          "key": "Rephrasing/Wordiness",
+          "value": "S_Txt"
+        },
+        {
+          "key": "SentenceStructure/SentenceFragment",
+          "value": "H_Intellts"
+        },
+        {
+          "key": "SentenceStructure/WordOrder",
+          "value": "G_Wo"
+        },
+        {
+          "key": "Spelling/Diacritic",
+          "value": "O_Graph"
+        },
+        {
+          "key": "Spelling/Merge",
+          "value": "O_Wordbd"
+        },
+        {
+          "key": "Spelling/Misspelling",
+          "value": "O_Graph"
+        },
+        {
+          "key": "Spelling/Other",
+          "value": "O_Graph"
+        },
+        {
+          "key": "Spelling/SpellConfused_Capitalize",
+          "value": "O_Capit"
+        },
+        {
+          "key": "Spelling/SpellConfused_Confused",
+          "value": "O_Graph"
+        },
+        {
+          "key": "Spelling/SpellConfused_Lowercase",
+          "value": "O_Capit"
+        }
+      ],
+      "key_format": "string",
+      "name": "merlin.METC_TO_MERLIN"
+    },
+    {
+      "entries": [
+        {
+          "key": "ADJ",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "ADP",
+          "value": "G_Prep"
+        },
+        {
+          "key": "ADV",
+          "value": "V_Wordform"
+        },
+        {
+          "key": "AUX",
+          "value": "G_Verb_compl"
+        },
+        {
+          "key": "CCONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "CONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "DET",
+          "value": "G_Art"
+        },
+        {
+          "key": "INTJ",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "NOUN",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "NUM",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "PART",
+          "value": "G_Verb_compl"
+        },
+        {
+          "key": "PRON",
+          "value": "G_Refl"
+        },
+        {
+          "key": "PROPN",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "PUNCT",
+          "value": "O_Punct"
+        },
+        {
+          "key": "SCONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "SYM",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "UNK",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "VERB",
+          "value": "G_Verb"
+        },
+        {
+          "key": "X",
+          "value": "V_semdenot_word_fs"
+        }
+      ],
+      "key_format": "string",
+      "name": "merlin.JP_UPOS_TO_MERLIN"
+    },
+    {
+      "entries": [
+        {
+          "key": "ADJ",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "ADJ:FORM",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "ADP",
+          "value": "G_Prep"
+        },
+        {
+          "key": "ADV",
+          "value": "V_Wordform"
+        },
+        {
+          "key": "CCONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "CONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "CONTR",
+          "value": "O_Apostr"
+        },
+        {
+          "key": "DET",
+          "value": "G_Art"
+        },
+        {
+          "key": "INTJ",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "MORPH",
+          "value": "G_Pos"
+        },
+        {
+          "key": "NOUN",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "NOUN:FORM",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "NOUN:INFL",
+          "value": "G_Inflect_Inexist"
+        },
+        {
+          "key": "NOUN:NUM",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "NOUN:POSS",
+          "value": "G_Refl"
+        },
+        {
+          "key": "NUM",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "ORTH",
+          "value": "O_Capit"
+        },
+        {
+          "key": "OTHER",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "PART",
+          "value": "G_Verb_compl"
+        },
+        {
+          "key": "PNOUN",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "PREP",
+          "value": "G_Prep"
+        },
+        {
+          "key": "PRON",
+          "value": "G_Refl"
+        },
+        {
+          "key": "PROPN",
+          "value": "G_Morphol_Wrong"
+        },
+        {
+          "key": "PUNCT",
+          "value": "O_Punct"
+        },
+        {
+          "key": "SCONJ",
+          "value": "G_Conj"
+        },
+        {
+          "key": "SPELL",
+          "value": "O_Graph"
+        },
+        {
+          "key": "SYM",
+          "value": "O_Abbrev"
+        },
+        {
+          "key": "UNK",
+          "value": "V_semdenot_word_fs"
+        },
+        {
+          "key": "VERB",
+          "value": "G_Verb"
+        },
+        {
+          "key": "VERB:FORM",
+          "value": "G_Verb_compl"
+        },
+        {
+          "key": "VERB:INFL",
+          "value": "G_Inflect_Inexist"
+        },
+        {
+          "key": "VERB:SVA",
+          "value": "G_Agr"
+        },
+        {
+          "key": "VERB:TENSE",
+          "value": "G_Verb"
+        },
+        {
+          "key": "WO",
+          "value": "G_Wo"
+        },
+        {
+          "key": "X",
+          "value": "V_semdenot_word_fs"
+        }
+      ],
+      "key_format": "string",
+      "name": "merlin.GERRANT_PORT_CAT_TO_MERLIN"
+    },
+    {
+      "entries": [
+        {
+          "key": "Formatting/AbbreviationFormat",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/CurrencyFormat",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/DateFormat",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/MeasurementFormat",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/MissingSpace",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/Other",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/RedundantSpace",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/SpellOutNumber",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Formatting/TimeFormat",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Grammar/Adjective",
+          "value": "R:ADJ -> ADJ"
+        },
+        {
+          "key": "Grammar/Adverb",
+          "value": "R:ADV -> ADV"
+        },
+        {
+          "key": "Grammar/Agreement",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Grammar/Conjunction",
+          "value": "R:CCONJ -> CCONJ"
+        },
+        {
+          "key": "Grammar/Determiner",
+          "value": "R:DET -> DET"
+        },
+        {
+          "key": "Grammar/Morphology",
+          "value": "R:NOUN -> NOUN"
+        },
+        {
+          "key": "Grammar/Negation",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Grammar/Noun",
+          "value": "R:NOUN -> NOUN"
+        },
+        {
+          "key": "Grammar/Particle",
+          "value": "R:PART -> PART"
+        },
+        {
+          "key": "Grammar/Preposition",
+          "value": "R:ADP -> ADP"
+        },
+        {
+          "key": "Grammar/Pronoun",
+          "value": "R:PRON -> PRON"
+        },
+        {
+          "key": "Grammar/Verb",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Grammar/VerbSVA",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Grammar/VerbTenseForm",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Other/Compound_Complex",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Other/Compound_Moderate",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Other/Compound_Trivial",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Punctuation/ClosingPunctuation",
+          "value": "R:PUNCT"
+        },
+        {
+          "key": "Punctuation/Other",
+          "value": "R:PUNCT"
+        },
+        {
+          "key": "Punctuation/SentenceSplit",
+          "value": "R:PUNCT"
+        },
+        {
+          "key": "Rephrasing/Formality",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Rephrasing/Other",
+          "value": "R:NOUN -> NOUN"
+        },
+        {
+          "key": "Rephrasing/Tone",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "Rephrasing/Wordiness",
+          "value": "R:NOUN -> NOUN"
+        },
+        {
+          "key": "SentenceStructure/SentenceFragment",
+          "value": "R:VERB -> VERB"
+        },
+        {
+          "key": "SentenceStructure/WordOrder",
+          "value": "R:WO"
+        },
+        {
+          "key": "Spelling/Diacritic",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/Merge",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/Misspelling",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/Other",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Capitalize",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Confused",
+          "value": "R:SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Lowercase",
+          "value": "R:SPELL"
+        }
+      ],
+      "key_format": "string",
+      "name": "kolla.METC_TO_KOLLA"
+    },
+    {
+      "entries": [
+        {
+          "key": "Formatting/AbbreviationFormat",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Formatting/CurrencyFormat",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Formatting/DateFormat",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Formatting/MeasurementFormat",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Formatting/MissingSpace",
+          "value": "Spelling"
+        },
+        {
+          "key": "Formatting/Other",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Formatting/RedundantSpace",
+          "value": "Spelling"
+        },
+        {
+          "key": "Formatting/SpellOutNumber",
+          "value": "Spelling"
+        },
+        {
+          "key": "Formatting/TimeFormat",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Grammar/Adjective",
+          "value": "G/Case"
+        },
+        {
+          "key": "Grammar/Adverb",
+          "value": "G/Other"
+        },
+        {
+          "key": "Grammar/Agreement",
+          "value": "G/Number"
+        },
+        {
+          "key": "Grammar/Conjunction",
+          "value": "G/Conjunction"
+        },
+        {
+          "key": "Grammar/Determiner",
+          "value": "G/Other"
+        },
+        {
+          "key": "Grammar/Morphology",
+          "value": "G/Case"
+        },
+        {
+          "key": "Grammar/Negation",
+          "value": "G/Particle"
+        },
+        {
+          "key": "Grammar/Noun",
+          "value": "G/Case"
+        },
+        {
+          "key": "Grammar/Particle",
+          "value": "G/Particle"
+        },
+        {
+          "key": "Grammar/Preposition",
+          "value": "G/Prep"
+        },
+        {
+          "key": "Grammar/Pronoun",
+          "value": "G/Case"
+        },
+        {
+          "key": "Grammar/Verb",
+          "value": "G/Tense"
+        },
+        {
+          "key": "Grammar/VerbSVA",
+          "value": "G/Number"
+        },
+        {
+          "key": "Grammar/VerbTenseForm",
+          "value": "G/Tense"
+        },
+        {
+          "key": "Other/Compound_Complex",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "Other/Compound_Moderate",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "Other/Compound_Trivial",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "Punctuation/ClosingPunctuation",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Punctuation/Other",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Punctuation/SentenceSplit",
+          "value": "Punctuation"
+        },
+        {
+          "key": "Rephrasing/Formality",
+          "value": "G/Other"
+        },
+        {
+          "key": "Rephrasing/Other",
+          "value": "G/Other"
+        },
+        {
+          "key": "Rephrasing/Tone",
+          "value": "G/Other"
+        },
+        {
+          "key": "Rephrasing/Wordiness",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "SentenceStructure/SentenceFragment",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "SentenceStructure/WordOrder",
+          "value": "G/UngrammaticalStructure"
+        },
+        {
+          "key": "Spelling/Diacritic",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/Merge",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/Misspelling",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/Other",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/SpellConfused_Capitalize",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/SpellConfused_Confused",
+          "value": "Spelling"
+        },
+        {
+          "key": "Spelling/SpellConfused_Lowercase",
+          "value": "Spelling"
+        }
+      ],
+      "key_format": "string",
+      "name": "uk.METC_TO_UAGEC"
+    },
+    {
+      "entries": [
+        {
+          "key": "ADJ",
+          "value": "G/Case"
+        },
+        {
+          "key": "ADP",
+          "value": "G/Prep"
+        },
+        {
+          "key": "ADV",
+          "value": "G/Other"
+        },
+        {
+          "key": "AUX",
+          "value": "G/Tense"
+        },
+        {
+          "key": "CCONJ",
+          "value": "G/Conjunction"
+        },
+        {
+          "key": "CONJ",
+          "value": "G/Conjunction"
+        },
+        {
+          "key": "DET",
+          "value": "G/Other"
+        },
+        {
+          "key": "INTJ",
+          "value": "G/Other"
+        },
+        {
+          "key": "NOUN",
+          "value": "G/Case"
+        },
+        {
+          "key": "NUM",
+          "value": "G/Other"
+        },
+        {
+          "key": "PART",
+          "value": "G/Particle"
+        },
+        {
+          "key": "PRON",
+          "value": "G/Case"
+        },
+        {
+          "key": "PROPN",
+          "value": "G/Case"
+        },
+        {
+          "key": "PUNCT",
+          "value": "Punctuation"
+        },
+        {
+          "key": "SCONJ",
+          "value": "G/Conjunction"
+        },
+        {
+          "key": "SYM",
+          "value": "Punctuation"
+        },
+        {
+          "key": "UNK",
+          "value": "G/Other"
+        },
+        {
+          "key": "VERB",
+          "value": "G/Tense"
+        },
+        {
+          "key": "X",
+          "value": "G/Other"
+        }
+      ],
+      "key_format": "string",
+      "name": "uk.JP_UPOS_TO_UAGEC"
+    },
+    {
+      "entries": [
+        {
+          "key": "Formatting/AbbreviationFormat",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Formatting/CurrencyFormat",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Formatting/DateFormat",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Formatting/MeasurementFormat",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Formatting/MissingSpace",
+          "value": "SPELL"
+        },
+        {
+          "key": "Formatting/Other",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Formatting/RedundantSpace",
+          "value": "SPELL"
+        },
+        {
+          "key": "Formatting/SpellOutNumber",
+          "value": "NUM"
+        },
+        {
+          "key": "Formatting/TimeFormat",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Grammar/Adjective",
+          "value": "ADJ"
+        },
+        {
+          "key": "Grammar/Adverb",
+          "value": "ADV"
+        },
+        {
+          "key": "Grammar/Agreement",
+          "value": "OTHER"
+        },
+        {
+          "key": "Grammar/Conjunction",
+          "value": "CONJ"
+        },
+        {
+          "key": "Grammar/Determiner",
+          "value": "AUX"
+        },
+        {
+          "key": "Grammar/Morphology",
+          "value": "OTHER"
+        },
+        {
+          "key": "Grammar/Negation",
+          "value": "ADV"
+        },
+        {
+          "key": "Grammar/Noun",
+          "value": "NOUN"
+        },
+        {
+          "key": "Grammar/Particle",
+          "value": "AUX"
+        },
+        {
+          "key": "Grammar/Preposition",
+          "value": "PREP"
+        },
+        {
+          "key": "Grammar/Pronoun",
+          "value": "PRON"
+        },
+        {
+          "key": "Grammar/Verb",
+          "value": "VERB"
+        },
+        {
+          "key": "Grammar/VerbSVA",
+          "value": "VERB"
+        },
+        {
+          "key": "Grammar/VerbTenseForm",
+          "value": "VERB"
+        },
+        {
+          "key": "Other/Compound",
+          "value": "OTHER"
+        },
+        {
+          "key": "Other/Compound_Complex",
+          "value": "OTHER"
+        },
+        {
+          "key": "Other/Compound_Moderate",
+          "value": "OTHER"
+        },
+        {
+          "key": "Other/Compound_Trivial",
+          "value": "OTHER"
+        },
+        {
+          "key": "Punctuation/ClosingPunctuation",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Punctuation/Other",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Punctuation/SentenceSplit",
+          "value": "PUNCT"
+        },
+        {
+          "key": "Rephrasing/Formality",
+          "value": "OTHER"
+        },
+        {
+          "key": "Rephrasing/Other",
+          "value": "OTHER"
+        },
+        {
+          "key": "Rephrasing/Tone",
+          "value": "OTHER"
+        },
+        {
+          "key": "Rephrasing/Wordiness",
+          "value": "OTHER"
+        },
+        {
+          "key": "SentenceStructure/SentenceFragment",
+          "value": "OTHER"
+        },
+        {
+          "key": "SentenceStructure/WordOrder",
+          "value": "W"
+        },
+        {
+          "key": "Spelling/Diacritic",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/Merge",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/Misspelling",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/Other",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Capitalize",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Confused",
+          "value": "SPELL"
+        },
+        {
+          "key": "Spelling/SpellConfused_Lowercase",
+          "value": "SPELL"
+        }
+      ],
+      "key_format": "string",
+      "name": "zh.METC_TO_CHERRANT"
+    },
+    {
+      "entries": [
+        {
+          "key": "ADJ",
+          "value": "ADJ"
+        },
+        {
+          "key": "ADP",
+          "value": "PREP"
+        },
+        {
+          "key": "ADV",
+          "value": "ADV"
+        },
+        {
+          "key": "AUX",
+          "value": "AUX"
+        },
+        {
+          "key": "CCONJ",
+          "value": "CONJ"
+        },
+        {
+          "key": "CONJ",
+          "value": "CONJ"
+        },
+        {
+          "key": "DET",
+          "value": "AUX"
+        },
+        {
+          "key": "INTJ",
+          "value": "OTHER"
+        },
+        {
+          "key": "NOUN",
+          "value": "NOUN"
+        },
+        {
+          "key": "NUM",
+          "value": "NUM"
+        },
+        {
+          "key": "PART",
+          "value": "AUX"
+        },
+        {
+          "key": "PRON",
+          "value": "PRON"
+        },
+        {
+          "key": "PROPN",
+          "value": "NOUN"
+        },
+        {
+          "key": "PUNCT",
+          "value": "PUNCT"
+        },
+        {
+          "key": "SCONJ",
+          "value": "CONJ"
+        },
+        {
+          "key": "SYM",
+          "value": "PUNCT"
+        },
+        {
+          "key": "VERB",
+          "value": "VERB"
+        },
+        {
+          "key": "X",
+          "value": "OTHER"
+        }
+      ],
+      "key_format": "string",
+      "name": "zh._JP_POS_TO_CAT"
+    },
+    {
+      "entries": [
+        {
+          "key": "CO",
+          "value": "CONJ"
+        },
+        {
+          "key": "DE",
+          "value": "AUX"
+        },
+        {
+          "key": "MULTI",
+          "value": "OTHER"
+        },
+        {
+          "key": "PINYIN",
+          "value": "SPELL"
+        },
+        {
+          "key": "SHAPE",
+          "value": "SPELL"
+        },
+        {
+          "key": "SPELL",
+          "value": "SPELL"
+        },
+        {
+          "key": "W",
+          "value": "W"
+        },
+        {
+          "key": "WO",
+          "value": "W"
+        },
+        {
+          "key": "X",
+          "value": "OTHER"
+        }
+      ],
+      "key_format": "string",
+      "name": "zh._JP_SPECIAL"
+    }
+  ],
+  "schema_version": 1
+}

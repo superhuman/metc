@@ -1,0 +1,82 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "metc"
+version = "1.0.0"
+description = "Standalone multilingual error type classification inference"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+license-files = [
+  "LICENSE",
+  "NOTICE",
+  "THIRD_PARTY_NOTICES.md",
+  "UNICODE_LICENSE.txt",
+]
+dependencies = [
+  "diff-match-patch==20181111",
+  "huggingface-hub==0.36.2",
+  "safetensors==0.6.2",
+  "tokenizers==0.22.0",
+  "torch==2.9.0",
+  "transformers==4.57.3",
+]
+
+[project.optional-dependencies]
+paper = [
+  "accelerate==1.12.0",
+  "flash-attn==2.8.2",
+]
+
+[project.scripts]
+metc = "metc.cli:main"
+metc-artifact = "metc_artifact.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest==8.4.2",
+  "ruff==0.14.10",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/metc", "src/metc_artifact"]
+
+[tool.hatch.build]
+include = [
+  "src/metc/**/*.py",
+  "src/metc_artifact/**/*.py",
+  "src/metc/extractor/emoji-sequences.txt",
+  "src/metc/resources/label_mapping.json",
+]
+
+[tool.uv]
+default-groups = []
+
+[tool.uv.extra-build-dependencies]
+flash-attn = [
+  { requirement = "torch", match-runtime = true },
+  "ninja",
+  "packaging",
+  "wheel",
+]
+
+[tool.uv.extra-build-variables]
+flash-attn = { FLASH_ATTENTION_SKIP_CUDA_BUILD = "FALSE", MAX_JOBS = "2" }
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [
+  "src/metc/extractor",
+  "baselines/gerrant_de/align_text.py",
+  "baselines/gerrant_de/cat_rules_de.py",
+  "baselines/gerrant_de/gerrant_de.py",
+  "baselines/gerrant_de/rdlextra.py",
+  "baselines/gerrant_de/toolbox.py",
+]

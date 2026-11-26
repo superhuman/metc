@@ -1,0 +1,100 @@
+{
+  "data": {
+    "access": "proprietary_not_distributed",
+    "split": {
+      "method": "concatenate_all_sources_then_shuffle_once",
+      "seed": 42,
+      "training_fraction": 0.9,
+      "validation_fraction": 0.1
+    },
+    "training_sources": [
+      {
+        "id": "english_gec_primary",
+        "tier": "english"
+      },
+      {
+        "id": "english_gec_secondary",
+        "tier": "english"
+      },
+      {
+        "id": "english_beyond_gec",
+        "tier": "english"
+      },
+      {
+        "id": "french",
+        "tier": "five_higher_resource_languages"
+      },
+      {
+        "id": "german",
+        "tier": "five_higher_resource_languages"
+      },
+      {
+        "id": "italian",
+        "tier": "five_higher_resource_languages"
+      },
+      {
+        "id": "portuguese",
+        "tier": "five_higher_resource_languages"
+      },
+      {
+        "id": "spanish",
+        "tier": "five_higher_resource_languages"
+      },
+      {
+        "id": "omnilingual_long_tail",
+        "tier": "long_tail"
+      }
+    ]
+  },
+  "model": {
+    "architecture": "ModernBertForTokenClassification",
+    "base_encoder": "jhu-clsp/mmBERT-small",
+    "edit_close_token": "[/EDIT]",
+    "edit_open_token": "[EDIT]",
+    "max_length": 256,
+    "num_labels": 42
+  },
+  "optimization": {
+    "early_stopping_patience_evaluations": 3,
+    "eval_steps": 1000,
+    "fp16": true,
+    "learning_rate": 2e-05,
+    "num_epochs_requested": 10,
+    "per_device_eval_batch_size": 64,
+    "per_device_train_batch_size": 16,
+    "save_steps": 1000,
+    "save_total_limit": 3,
+    "seed": 42,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  },
+  "schema_version": "metc-training-recipe-v1",
+  "run_summary": {
+    "examples": {
+      "total": 1699176,
+      "training": 1529258,
+      "validation": 169918
+    },
+    "reported_tier_rows_rounded_to_nearest_1000": {
+      "english": 438000,
+      "five_higher_resource_languages": 450000,
+      "long_tail": 811000
+    },
+    "selected_checkpoint": {
+      "step": 23000,
+      "validation_f1_macro": 0.7583
+    },
+    "training_stop": {
+      "epoch": 2.176,
+      "reason": "early_stopping_patience_reached",
+      "step": 26000
+    }
+  },
+  "selection": {
+    "greater_is_better": true,
+    "load_best_model_at_end": true,
+    "metric": "f1_macro",
+    "validation_data": "internal_global_held_out_split"
+  },
+  "source_test_files_used_for_checkpoint_selection": false
+}

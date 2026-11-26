@@ -1,0 +1,1 @@
+"""Versioned, immutable METC resources."""

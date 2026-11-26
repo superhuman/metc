@@ -1,0 +1,12 @@
+{
+  "data": {
+    "delivery": "companion_release_asset",
+    "filename": "metc-data.zip",
+    "root_directory": "metc-data",
+    "sha256": "c47a99032b8ecec17d553439a6b9a5045600b16221efae12dbafa00602a914ab",
+    "size_bytes": 37828516,
+    "status": "available",
+    "uncompressed_size_bytes": 561471286
+  },
+  "schema_version": "metc-submission-v1"
+}

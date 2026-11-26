@@ -1,0 +1,14 @@
+[project]
+name = "metc-runtime-gerrant"
+version = "1.0.0"
+requires-python = "==3.11.*"
+dependencies = [
+  "click==8.3.1",
+  "de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl",
+  "nltk==3.9.4",
+  "regex==2026.6.28",
+  "spacy==3.8.14",
+]
+
+[tool.uv]
+package = false
